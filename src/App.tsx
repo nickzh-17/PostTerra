@@ -1,4 +1,6 @@
 import React from "react";
+
+import "reset-css";
 import "./App.css";
 
 export const App: React.FC = () => {
