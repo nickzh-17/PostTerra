@@ -1,0 +1,5 @@
+.form {
+	width: 80%;
+	padding: var(--length-lvl-4);
+	margin: 0 auto;
+}
