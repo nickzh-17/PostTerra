@@ -6,8 +6,8 @@
 }
 
 .label {
-	font-family: "Inter", Helvetica, sans-serif;
-	font-weight: 600;
+	font-family: var(--font-family);
+	font-weight: var(--fw-lvl-2);
 	font-size: var(--fz-lvl-3);
 	color: var(--color-text-second);
 }
@@ -39,12 +39,9 @@
 	margin-top: var(--length-lvl-5);
 	margin-left: var(--length-lvl-4);
 
-	font-family: "Inter", Helvetica, sans-serif;
-	font-weight: 400;
+	font-family: var(--font-family);
+	font-weight: var(--fw-lvl-3);
 	font-size: var(--fz-lvl-3);
-	color: var(--color-text-detail);
-
-	font-size: 12px;
 	color: var(--color-text-detail);
 }
 

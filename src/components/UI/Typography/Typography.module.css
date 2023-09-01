@@ -3,37 +3,37 @@
 .h3,
 .p,
 .span {
-	font-family: "Inter", Helvetica, sans-serif;
+	font-family: var(--font-family);
 }
 
 .h1 {
-	font-weight: 700;
+	font-weight: var(--fw-lvl-1);
 	font-size: var(--fz-lvl-1);
 
 	color: var(--color-text-primary);
 }
 
 .h2 {
-	font-weight: 600;
+	font-weight: var(--fw-lvl-2);
 	font-size: var(--fz-lvl-2);
 
 	color: var(--color-text-primary);
 }
 .h3 {
-	font-weight: 400;
+	font-weight: var(--fw-lvl-3);
 	font-size: var(--fz-lvl-2);
 
 	color: var(--color-text-primary);
 }
 
 .p {
-	font-weight: 600;
+	font-weight: var(--fw-lvl-2);
 	font-size: var(--fz-lvl-2);
 	color: var(--color-text-second);
 }
 
 .span {
-	font-weight: 400;
+	font-weight: var(--fw-lvl-3);
 	font-size: var(--fz-lvl-3);
 	color: var(--color-text-detail);
 }
