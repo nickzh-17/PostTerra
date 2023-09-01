@@ -9,10 +9,11 @@
 	--color-text-primary: #f2e9e4;
 	--color-text-second: #4a4e69;
 	--color-text-detail: rgba(255, 255, 255, 0.5);
-	--color-text-error: var(--color-error);
+	--color-text-error: #c55670;
 	--color-text-success: var(--color-success);
 
 	--color-border-primary: #9a8c98;
+	--color-border-second: #ffffff;
 	--color-border-success: var(--color-success);
 	--color-border-error: var(--color-error);
 
@@ -34,6 +35,7 @@ body[data-theme="dark"] {
 	--color-text-success: var(--color-success);
 
 	--color-border-primary: #9a8c98;
+	--color-border-second: #ffffff;
 	--color-border-success: var(--color-success);
 	--color-border-error: var(--color-error);
 
