@@ -1,11 +1,6 @@
-import Button from "components/UI/Button/Button";
-import Checkbox from "components/UI/Checkbox/Checkbox";
-import TextInput from "components/UI/TextInput/TextInput";
-import { AuthLayout } from "layouts/auth/auth-layout";
 import React, { useState } from "react";
 
-import sv from "components/UI/Checkbox/img/done.svg";
-
+import SignInPage from "pages/SignIn";
 import "reset-css";
 import "./App.css";
 
@@ -18,25 +13,7 @@ export const App: React.FC = () => {
 
 	return (
 		<div className="App">
-			<AuthLayout title="Вход">
-				<TextInput label="Имя пользователя" />
-				<TextInput error={true} label="Пароль" />
-				<TextInput description="Почта должна содержать @" label="Почта" />
-				<Checkbox label="Запомнить меня" name="remember" value={value} onChange={onToggleCheckbox} />
-				<Button variant="icon" color="secondary">
-					<img src={sv} alt="check" />
-				</Button>
-				<Button variant="icon">
-					<img src={sv} alt="check" />
-				</Button>
-				<Button disabled={true}>Войти</Button>
-				<Button>Войти</Button>
-				<Button color="secondary">Войти</Button>
-				<Button variant="wide">Войти</Button>
-				<Button variant="wide" color="secondary">
-					Войти
-				</Button>
-			</AuthLayout>
+			<SignInPage />
 		</div>
 	);
 };
