@@ -37,3 +37,13 @@
 	font-size: var(--fz-lvl-3);
 	color: var(--color-text-detail);
 }
+
+.primary {
+	color: var(--color-text-primary);
+}
+.second {
+	color: var(--color-text-second);
+}
+.detail {
+	color: var(--color-text-detail);
+}

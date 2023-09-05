@@ -1,0 +1,7 @@
+.tabsWithSubtabs {
+	width: 100%;
+}
+
+.subtabsWrapper {
+	border-bottom: var(--bord-lvl-3) solid var(--color-border-primary);
+}

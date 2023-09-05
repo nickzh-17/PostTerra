@@ -1,0 +1,30 @@
+.wrapper {
+	width: 100%;
+}
+
+.wrapper.subtabs {
+	border-bottom: var(--bord-lvl-3) solid var(--color-border-primary);
+}
+
+.tabs {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.button {
+	border-radius: 0px;
+	background-color: transparent;
+
+	color: var(--color-text-second);
+	font-weight: var(--fw-lvl-2);
+	font-size: var(--fz-lvl-3);
+}
+
+.button.active {
+	background: var(--color-bg-popup);
+}
+
+.subtabs .button {
+	font-size: var(--fz-lvl-4);
+}
