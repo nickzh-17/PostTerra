@@ -1,3 +1,4 @@
+import Main from "pages/Main";
 import SignInPage from "pages/SignIn";
 import React from "react";
 
@@ -14,7 +15,7 @@ const Router: React.FC = () => {
 			<Routes>
 				<Route path="*" element={<Navigate to="/" />} />
 
-				{/* <Route path="/" element={<Main />} /> */}
+				<Route path="/" element={<Main />} />
 				{/* <Route path="/posts/:id" element={<Post />} /> */}
 				<Route path="/sign-in" element={<SignInPage />} />
 				{/* <Route path="/sign-up" element={<SignUp />} /> */}

@@ -1,0 +1,7 @@
+.header {
+	background-color: var(--header-bg-color);
+	box-sizing: border-box;
+	padding: var(--length-lvl-3) var(--length-lvl-2);
+	display: flex;
+	align-items: center;
+}
