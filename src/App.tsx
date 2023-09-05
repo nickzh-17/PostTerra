@@ -1,20 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
+import { Provider } from "react-redux";
 
-import SignInPage from "pages/SignIn";
 import "reset-css";
+import Router from "router";
+import { store } from "store";
 import "./App.css";
 
 export const App: React.FC = () => {
-	const [value, setValue] = useState<boolean>(false);
-
-	const onToggleCheckbox = (e: React.MouseEvent) => {
-		setValue(prev => !prev);
-	};
-
 	return (
-		<div className="App">
-			<SignInPage />
-		</div>
+		<Provider store={store}>
+			<Router />
+		</Provider>
 	);
 };
 
