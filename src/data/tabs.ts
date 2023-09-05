@@ -1,4 +1,4 @@
-import { Tab } from "types/post";
+import { Tab } from "types/tabs";
 
 export const tabs: Tab[] = [
 	{
