@@ -1,0 +1,28 @@
+.wrapper {
+	display: flex;
+	justify-content: center;
+	gap: var(--length-lvl-4);
+
+	margin: var(--length-lvl-1);
+}
+
+.skipPages {
+	align-self: end;
+
+	font-family: var(--font-family);
+	font-weight: var(--fw-lvl-2);
+	font-size: var(--fz-lvl-2);
+	color: var(--color-bg-popup);
+}
+
+.number {
+	position: relative;
+}
+.active:after {
+	position: absolute;
+	content: "";
+	bottom: 0px;
+	left: calc(50% - 0.5 * var(--length-st-5));
+	width: var(--length-st-5);
+	border-bottom: var(--length-st-1) solid var(--color-border-primary);
+}

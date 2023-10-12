@@ -1,0 +1,11 @@
+.logo {
+	display: flex;
+}
+
+.logoFirst {
+	color: var(--color-text-second);
+}
+
+.logoSecond {
+	color: var(--color-text-primary);
+}

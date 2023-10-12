@@ -1,0 +1,7 @@
+.postsGrid {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	gap: calc(2 * var(--length-lvl-1));
+}

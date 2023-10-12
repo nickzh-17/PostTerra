@@ -1,0 +1,26 @@
+.authLayout {
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: var(--color-bg-primary);
+}
+
+.wrapper {
+	width: 30%;
+	min-height: 15%;
+
+	padding: var(--length-lvl-1);
+	border-radius: var(--bord-rad-lvl-2);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: var(--length-lvl-3);
+
+	/* background: var(--color-bg-second); */
+	border: 1px solid var(--color-border-primary);
+}

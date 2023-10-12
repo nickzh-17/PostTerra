@@ -1,0 +1,22 @@
+.actions {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.buttonsWrap {
+	display: flex;
+	flex-direction: row;
+	gap: var(--length-st-4);
+}
+
+.buttonsWrap button:not(:last-child) {
+	margin-right: 8px;
+}
+
+.buttonWithNumber {
+	min-width: var(--length-st-6);
+	display: flex;
+	justify-content: space-between;
+	padding: 0px;
+}

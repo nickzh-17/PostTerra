@@ -1,0 +1,45 @@
+.createIcon {
+	fill: var(--color-icon-primary);
+}
+
+.themeDark {
+	fill: var(--color-icon-primary);
+}
+
+.themeLight {
+	fill: var(--color-icon-primary);
+}
+
+.dislikeUnused path {
+	stroke: var(--color-bg-accent);
+	fill: none;
+}
+.dislikeUsed path {
+	stroke: #754f22;
+}
+
+.account {
+	fill: var(--color-icon-primary);
+}
+
+.likeUnused path {
+	stroke-width: 3px;
+	fill: none;
+	stroke: var(--color-bg-accent);
+}
+
+.likeUsed path {
+	stroke-width: 3px;
+	stroke: #eb4c34;
+	fill: #f75b43;
+}
+
+.bookmarkUsed {
+	fill: #d1364d;
+	stroke: #ab2237;
+}
+
+.bookmarkUnused {
+	fill: none;
+	stroke: var(--color-bg-accent);
+}
