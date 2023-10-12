@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+	--font-family: "Poppins", Helvetica, sans-serif;
+
+	--fz-lvl-1: 36px;
+	--fz-lvl-2: 24px;
+	--fz-lvl-3: 16px;
+	--fz-lvl-4: 12px;
+
+	--fw-lvl-1: 700;
+	--fw-lvl-2: 600;
+	--fw-lvl-3: 400;
+}

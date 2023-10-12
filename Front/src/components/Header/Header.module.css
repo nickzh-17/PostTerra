@@ -1,0 +1,32 @@
+.header {
+	box-sizing: border-box;
+	padding: var(--length-lvl-3) var(--length-lvl-2);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.header:after {
+	content: "";
+	display: block;
+	height: 1px;
+	width: 30vw;
+	background: rgb(178, 178, 178);
+
+	position: absolute;
+	top: 100%;
+	/* left: calc(35vw); */
+	left: 0;
+}
+
+.userInfo {
+	display: flex;
+	align-items: center;
+	gap: var(--length-lvl-1);
+}
+
+.controls {
+	display: flex;
+	gap: var(--length-st-4);
+}

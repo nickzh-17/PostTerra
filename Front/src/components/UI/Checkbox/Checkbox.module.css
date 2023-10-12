@@ -1,0 +1,27 @@
+.wrapper {
+	display: flex;
+	align-items: center;
+	margin-bottom: var(--length-lvl-2);
+	gap: var(--length-lvl-3);
+}
+
+.label {
+	font-family: "Inter", Helvetica, sans-serif;
+	font-weight: 600;
+	font-size: var(--fz-lvl-3);
+	color: var(--color-text-second);
+}
+
+.checkbox {
+	width: 20px;
+	height: 20px;
+	background: var(--color-bg-accent);
+
+	border-radius: var(--bord-rad-st-1);
+	cursor: pointer;
+}
+
+.checkbox.done {
+	background-image: url("./img/done.svg");
+	background-position: center;
+}

@@ -1,0 +1,8 @@
+.title {
+	margin-bottom: var(--length-lvl-2);
+}
+
+.postsTabs {
+	margin-bottom: var(--length-lvl-2);
+	width: 100%;
+}
