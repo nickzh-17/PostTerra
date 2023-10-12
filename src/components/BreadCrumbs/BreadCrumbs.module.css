@@ -1,0 +1,27 @@
+.list {
+	display: flex;
+}
+
+.listItem {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.listItem::after {
+	content: "/";
+	color: var(--color-text-second);
+	display: block;
+	margin: 0 calc(0.5 * var(--length-lvl-1));
+}
+.listItem:last-child::after {
+	display: none;
+}
+
+.link {
+	color: var(--color-text-second);
+}
+
+.listItem > a {
+	text-decoration: none;
+}
